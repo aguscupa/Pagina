@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+}	
+
+body{
+   background: black;
+   font-family: verdana;
+
+}
+.contenedor{
+  background: red;	
+  width: 1100px;
+  margin: 10px auto;
+}
+.superior{
+	padding: 10px 0;
+}
+/*Estilos para el menu de opciones*/
+.opciones{
+	overflow: hidden;
+	background: #1653c6;
+}
+.opciones li{
+	float: left;
+	list-style: none; /*elimina la viñeta*/
+}
+
+.opciones li a{
+	padding: 10px 15px;
+	color: #fff;
+	text-decoration: none; /*elimina lo que es el subrayado*/
+	display: block;
+	font-weight: bold;
+}
+.opciones li a:hover{
+	background: #36cbef;
+	color:#242526;
+}
+
+/*estilos para el bloque medio*/
+.medio{
+	padding: 15px 0;
+}
+.titulo{
+	text-align: center;
+	color: #014e01;
+}
+.frase{
+	text-align: center;
+	padding: 10px 200px;
+	font-style: italic;
+	color: #051e4b;
+}
+/*estilos para las cajas*/
+.servicio{
+	width: 343px;
+}
+.cajas{
+	overflow: hidden;
+}
+.izquierda,.centro,.derecha{
+	float: left;
+	margin: 10px;
+	width: 343px;
+}
+.subtitulo{
+	text-align: center;
+	padding: 12px 0;
+}
+/*estilo para el pie de pagina*/
+
+}
+.bloque{
+    overflow: hidden;
+    color: #f1f0f5;
+    background: #010003;
+}
+.izq, .der, .cen{
+    float: left;
+    margin: 10px;
+    width: 343px;
+	
+}
+
+.pie {
+    overflow: hidden;
+    float: left;
+    margin: 4px;
+    width: 30px;
+	
+	
+       
+}
+	
